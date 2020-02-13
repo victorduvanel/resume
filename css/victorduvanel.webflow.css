@@ -867,7 +867,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   transform: scale(0.01, 0.01);
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
   }
@@ -918,7 +918,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .navigation-bar {
     padding-top: 10px;
     padding-right: 10px;
@@ -1018,7 +1018,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   h1 {
     font-size: 32px;
     line-height: 36px;
